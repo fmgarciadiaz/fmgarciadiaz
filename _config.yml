@@ -1,41 +1,32 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Notas aleatorias
-email: fmgarciadiaz78@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-  Economía, pensamientos, visualizaciones y mucho menos.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://fmgarciadiaz.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: fergd1978
-github_username:  fmgarciadiaz
+# Setup
+title:            Economía
+tagline:          'Economía, Pensamiento y otros'
+description:      'Una prueba atómica'
+url:              https://fmgarciadiaz.github.io
+baseurl:          # the optional subpath of your site, e.g. "/blog"
 
-# Build settings
-markdown: kramdown
-theme: jekyll-theme-hydeout
+author:
+  name:           'Fer GD'
+  url:            https://twitter.com/fergd1978
+
+paginate:         5
+
 plugins:
   - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Custom vars
+version:            3.4.1
+sidebar_home_link:  true
+github:
+  repo:             https://github.com/fongandrew/hydeout
+
+disqus:
+  shortname: fergd1978
+
+google_analytics: UA-105397114-1
