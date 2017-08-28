@@ -1,13 +1,11 @@
 ---
 layout: page
-title: About
+title: Acerca de...
 sidebar_link: true
 ---
 
 <p class="message">
-  Hey there! This page is included as an example. Feel free to customize it
-  for your own use upon downloading. Carry on!
+  Un blog por Fernando García Díaz.
 </p>
 
-To make pages show up in the sidebar, add `sidebar_link: true` to the front
-matter.
+FGD - 2017
