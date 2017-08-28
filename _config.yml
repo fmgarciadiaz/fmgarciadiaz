@@ -3,8 +3,8 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
-title:            Economía
-tagline:          'Economía, Pensamiento y otros'
+title:            Deseconomia y demás
+tagline:          'Economía, Pensamientos, Visualizaciones'
 description:      'Una prueba atómica'
 url:              https://fmgarciadiaz.github.io
 baseurl:          # the optional subpath of your site, e.g. "/blog"
