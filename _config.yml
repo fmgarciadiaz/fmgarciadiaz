@@ -1,11 +1,12 @@
 # Dependencies
 markdown:         kramdown
 highlighter:      rouge
+excerpt_separator: <!--more-->
 
 # Setup
-title:            Deseconomia y demás
+title:            Pensamientos
 tagline:          'Economía, Pensamientos, Visualizaciones'
-description:      'Una prueba atómica'
+description:      'Economía, Pensamientos, Visualizaciones'
 url:              https://fmgarciadiaz.github.io
 baseurl:          # the optional subpath of your site, e.g. "/blog"
 
