@@ -3,6 +3,11 @@ markdown:         kramdown
 highlighter:      rouge
 excerpt_separator: <!--more-->
 
+# Permalinks
+permalink:        pretty
+
+
+
 # Setup
 title:            Fernando García Díaz
 tagline:          'Economía, Pensamientos, Visualizaciones'
@@ -16,6 +21,7 @@ author:
 
 paginate:         5
 
+whitelist: []
 plugins:
   - jekyll-feed
   - jekyll-gist
@@ -25,7 +31,7 @@ plugins:
 version:            3.4.1
 sidebar_home_link:  true
 github:
-  repo:             https://github.com/fongandrew/hydeout
+  repo:             https://github.com/fmgarciadiaz/fmgarciadiaz-github-io
 
 disqus:
   shortname: fmgarciadiaz-github-io
